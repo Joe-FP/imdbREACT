@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h3{
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-box{
+
+  background-color: lightgrey;
+  border-style: dashed;
+  width: 400px;
+}
+
+.movie-title{
+  margin: 0px;
+  padding-right: 20px;
+}
+
+.movie{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.movie-img{
+  height: 25px;
+  width: 25px;
+  padding-right: 20px;
+}
